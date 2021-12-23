@@ -3,18 +3,18 @@
 #### Student ID: <YOUR-STUDENT-ID>
 #### Student Name: <YOUR-NAME>
 
-## Homework 2-2
-Write a program ReverseString.java that takes a string from a command-line argument, 
-and prints out the input string in reverse.
+## Homework 2-3
+Write a program SpaceSqueeze.java that takes a string from a command-line argument 
+and removes adjacent spaces.
 
 ### Sample Run 1:
 ```
-$ java ReverseString Java
-avaJ
+$ java SpaceSqueeze "this is         a    quiz."
+this is a quiz.
 ```
 
 ### Sample Run 2:
 ```
-$ java ReverseString "Object-Oriented Programming"
-gnimmargorP detneirO-tcejbO
+$ java SpaceSqueeze "Cats       are     similar to     humans"
+Cats are similar to humans
 ```
